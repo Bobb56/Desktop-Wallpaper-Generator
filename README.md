@@ -7,6 +7,6 @@ Vous pouvez trouver ici des exemples d'images générées et le code source du p
 Les images générées présentent des symboles et formes/courbures de plus ou moins grosse taille/échelle. La taille de ces formes relativement à la taille de l'image peut être pilotée par le changement du paramètre K.
 Plus K est grand, plus les symboles seront petits et inversement. Pour générer des images de type fond d'écran, il est préférable de choisir K entre 100 et 120.
 
-La résolution des images obtenues doit se changer directement dans le programme.
+La résolution des images obtenues doit se changer directement dans la fonction main. La résolution par défaut est de 1920 par 1080 pixels.
 
 python ranimg.py K=110 image-sortie.png
